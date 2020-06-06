@@ -29,7 +29,7 @@ code --install-extension vscjava.vscode-spring-boot-dashboard
 code --install-extension vscjava.vscode-spring-initializr
 code --install-extension vscodevim.vim
 code --install-extension shd101wyy.markdown-preview-enhanced
-
+code --install-extension iocave.customize-ui
 #code --disable-extension vscodevim.vim
 #code --disable-extension tht13.html-preview-vscode
 #code --disable-extension auchenberg.vscode-browser-preview

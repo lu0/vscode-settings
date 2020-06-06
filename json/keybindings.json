@@ -330,6 +330,10 @@
                 "when": "editorTextFocus && !editorReadonly"
         },
         {
+                "key": "ctrl+r",
+                "command": "workbench.action.reloadWindow"
+        },
+        {
                 "key": "ctrl+shift+H",
                 "command": "-workbench.action.replaceInFiles"
         },        
