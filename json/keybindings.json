@@ -320,6 +320,16 @@
                 // "when": "editorLangId == 'markdown'"
         },
         {
+                "key": "ctrl+shift+enter",
+                "command": "editor.action.insertLineBefore",
+                "when": "editorTextFocus && !editorReadonly"
+        },
+        {
+                "key": "ctrl+enter",
+                "command": "editor.action.insertLineAfter",
+                "when": "editorTextFocus && !editorReadonly"
+        },
+        {
                 "key": "ctrl+shift+H",
                 "command": "-workbench.action.replaceInFiles"
         },        
@@ -737,16 +747,6 @@
         {
                 "key": "ctrl+]",
                 "command": "-editor.action.indentLines",
-                "when": "editorTextFocus && !editorReadonly"
-        },
-        {
-                "key": "ctrl+shift+enter",
-                "command": "-editor.action.insertLineBefore",
-                "when": "editorTextFocus && !editorReadonly"
-        },
-        {
-                "key": "ctrl+enter",
-                "command": "-editor.action.insertLineAfter",
                 "when": "editorTextFocus && !editorReadonly"
         },
         {
