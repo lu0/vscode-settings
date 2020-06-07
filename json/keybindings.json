@@ -285,6 +285,14 @@
                 "command": "workbench.action.moveEditorRightInGroup"
         },
         {
+                "key": "shift+meta+z",
+                "command": "workbench.action.moveEditorToPreviousGroup"
+        },
+        {
+                "key": "shift+meta+x",
+                "command": "workbench.action.moveEditorToNextGroup"
+        },
+        {
                 "key": "alt+shift+Q",
                 "command": "workbench.action.focusActiveEditorGroup"
         },
