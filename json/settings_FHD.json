@@ -4,7 +4,7 @@
     "terminal.integrated.copyOnSelection": true,
     "editor.autoClosingQuotes": "never",
     "editor.cursorStyle": "block",
-    "editor.fontFamily": "'Source Code Pro Medium', 'monospace', monospace, 'Noto Sans'",
+    "editor.fontFamily": "Source Code Pro Medium",
     "editor.fontSize": 15.5,
     "editor.minimap.maxColumn": 150,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -31,21 +31,18 @@
     "zenMode.hideTabs": false,
     "keyboard.dispatch": "keyCode",
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "git.countBadge": "off",
-    "scm.countBadge": "off",
     "outline.problems.badges": true,
+    "window.zoomLevel": 0,
     "customizeUI.fontSizeMap": {
-        "13px": "14px",
-        "12px": "13px",
-        "tab-title": "13.5px",      // Used for editor tab titles
-        "monospace": "13px",        // Used for monospace fonts in user interface
-        "menu": "14px",             // Used for menu items (windows only)
+        "13px": "15.5px",
+        "12px": "14px",
+        "tab-title": "15px", // Used for editor tab titles
+        "monospace": "20px", // Used for monospace fonts in user interface
     },
-    "customizeUI.font.regular": "Source Code Pro",
+    "customizeUI.font.regular": "Karla",
     "customizeUI.listRowHeight": 25, //22
     "customizeUI.activityBarHideSettings": true,
     "customizeUI.activityBar": "regular",
-    "window.zoomLevel": 0,
     "workbench.colorCustomizations": {
         "terminal.background": "#191919",
         "terminal.foreground": "#d0d0d0",
