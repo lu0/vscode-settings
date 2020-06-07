@@ -297,17 +297,12 @@
                 "command": "workbench.action.terminal.toggleTerminal"
         },
         {
-                "key": "alt+V",
+                "key": "ctrl+t",
                 "command": "workbench.action.splitEditor"
         },
         {
                 "key": "ctrl+[Backquote] ctrl+space",
                 "command": "workbench.action.closeEditorsAndGroup"
-        },
-        {
-                "key": "ctrl+[Backquote] ctrl+Backspace",
-                "command": "editor.action.deleteLines",
-                "when": "textInputFocus && !editorReadonly"
         },
         {
                 "key": "shift+Tab",
@@ -334,6 +329,26 @@
                 "command": "workbench.action.reloadWindow"
         },
         {
+                "key": "ctrl+shift+l",
+                "command": "editor.action.selectHighlights",
+                "when": "editorFocus"
+        },
+        {
+                "key": "ctrl+l",
+                "command": "expandLineSelection",
+                "when": "textInputFocus"
+        },
+        {
+                "key": "ctrl+shift+backspace",
+                "command": "workbench.action.searchEditor.deleteResultBlock",
+                "when": "inSearchEditor"
+        },
+        {
+                "key": "ctrl+shift+backspace",
+                "command": "editor.action.deleteLines",
+                "when": "editorTextFocus && !editorReadonly"
+        },
+        {
                 "key": "ctrl+shift+H",
                 "command": "-workbench.action.replaceInFiles"
         },        
@@ -349,11 +364,6 @@
         },
         {
                 "key": "ctrl+shift+l",
-                "command": "-editor.action.selectHighlights",
-                "when": "editorFocus"
-        },
-        {
-                "key": "ctrl+shift+l",
                 "command": "-addCursorsAtSearchResults",
                 "when": "fileMatchOrMatchFocus && searchViewletVisible"
         },
@@ -365,11 +375,6 @@
         {
                 "key": "ctrl+j",
                 "command": "-workbench.action.togglePanel"
-        },
-        {
-                "key": "ctrl+l",
-                "command": "-expandLineSelection",
-                "when": "textInputFocus"
         },
         {
                 "key": "ctrl+shift+`",
