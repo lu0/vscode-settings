@@ -305,7 +305,7 @@
                 "command": "workbench.action.terminal.toggleTerminal"
         },
         {
-                "key": "ctrl+t",
+                "key": "alt+v",
                 "command": "workbench.action.splitEditor"
         },
         {
