@@ -40,7 +40,7 @@
         "tab-title": "15px", // Used for editor tab titles
         "monospace": "20px", // Used for monospace fonts in user interface
     },
-    "customizeUI.font.regular": "Karla",
+    "customizeUI.font.regular": "WeblySleek UI Normal",
     "customizeUI.listRowHeight": 25, //22
     "customizeUI.activityBarHideSettings": true,
     "customizeUI.activityBar": "regular",
