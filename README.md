@@ -26,11 +26,9 @@ git clone https://github.com/lu0/vscode-settings
 cd vscode-settings
 
 # Symlinks
-chmod +x setup-symlinks.sh
 ./setup-symlinks.sh
 
 # Install extensions
-chmod +x install_extensions.sh
 ./install_extensions.sh
 ```
 
