@@ -25,8 +25,12 @@
                 "command": "workbench.action.openWorkspace"
         },
         {
-                "key": "ctrl+S",
+                "key": "ctrl+[Backquote] ctrl+s",
                 "command": "workbench.action.files.save"
+        },
+        {
+                "key": "ctrl+s",
+                "command": "workbench.action.files.saveWithoutFormatting"
         },
         {
                 "key": "ctrl+shift+S",
@@ -41,7 +45,7 @@
                 "command": "workbench.view.extensions"
         },
         {
-                "key": "ctrl+[Backquote] ctrl+s",
+                "key": "ctrl+[Backquote] s",
                 "command": "workbench.action.openSettings"
         },
         {
@@ -174,7 +178,7 @@
         },
         {
                 "key": "ctrl+[Backquote] S",
-                "command": "workbench.view.extension.objectExplorer"
+                "command": "-workbench.view.extension.objectExplorer"
         },
         {
                 "key": "ctrl+[Backquote] ctrl+D",
@@ -1866,5 +1870,9 @@
                 "key": "ctrl+delete",
                 "command": "-workbench.action.terminal.sendSequence",
                 "when": "terminalFocus"
+        },
+        {
+                "key": "ctrl+s",
+                "command": "-workbench.action.files.save"
         },
     ]
