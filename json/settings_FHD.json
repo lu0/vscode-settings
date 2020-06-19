@@ -17,7 +17,7 @@
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.letterSpacing": 1,
     "workbench.colorTheme": "Monokai",
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "window.menuBarVisibility": "toggle",
     "breadcrumbs.enabled": true,
     "editor.renderWhitespace": "none",
@@ -34,6 +34,9 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "outline.problems.badges": true,
     "window.zoomLevel": 0,
+    "scm.diffDecorations": "none",
+    "git.decorations.enabled": true,
+    "problems.decorations.enabled": false,
     "customizeUI.fontSizeMap": {
         "13px": "15.5px",
         "12px": "14px",

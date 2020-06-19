@@ -177,10 +177,6 @@
                 "command": "workbench.view.extension.test"
         },
         {
-                "key": "ctrl+[Backquote] S",
-                "command": "-workbench.view.extension.objectExplorer"
-        },
-        {
                 "key": "ctrl+[Backquote] ctrl+D",
                 "command": "workbench.debug.action.toggleRepl"
         },
@@ -262,23 +258,33 @@
         },
         {
                 "key": "shift+alt+Z",
-                "command": "workbench.action.terminal.focusPrevious",
+                "command": "workbench.action.previousPanelView",
+                "when": "panelFocus"
+        },
+        {
+                "key": "shift+alt+X",
+                "command": "workbench.action.nextPanelView",
+                "when": "panelFocus"
+        },
+        {
+                "key": "shift+alt+Z",
+                "command": "-workbench.action.terminal.focusPrevious",
                 "when": "terminalFocus"
         },
         {
                 "key": "shift+alt+X",
-                "command": "workbench.action.terminal.focusNext",
+                "command": "-workbench.action.terminal.focusNext",
                 "when": "terminalFocus"
         },
         {
                 "key": "shift+alt+Z",
                 "command": "workbench.action.focusLeftGroup",
-                "when": "editorFocus"
+                "when": "editorTextFocus"
         },
         {
                 "key": "shift+alt+X",
                 "command": "workbench.action.focusRightGroup",
-                "when": "editorFocus"
+                "when": "editorTextFocus"
         },
         {
                 "key": "shift+meta+A",
@@ -305,8 +311,16 @@
                 "command": "workbench.action.terminal.focus"
         },
         {
-                "key": "ctrl+[Backquote] ctrl+[Backquote]",
+                "key": "ctrl+[Backquote] ctrl+t",
                 "command": "workbench.action.terminal.toggleTerminal"
+        },
+        {
+                "key": "ctrl+[Backquote] ctrl+t",
+                "command": "-workbench.action.toggleMaximizedPanel"
+        },
+        {
+                "key": "ctrl+[Backquote] ctrl+[Backquote]",
+                "command": "workbench.action.togglePanel"
         },
         {
                 "key": "alt+v",
@@ -359,6 +373,10 @@
                 "key": "ctrl+delete",
                 "command": "editor.action.deleteLines",
                 "when": "editorTextFocus && !editorReadonly"
+        },
+        {
+                "key": "ctrl+[Backquote] S",
+                "command": "-workbench.view.extension.objectExplorer"
         },
         {
                 "key": "ctrl+shift+H",
@@ -1876,7 +1894,7 @@
                 "command": "-workbench.action.files.save"
         },
         {
-                "key": "ctrl+` ctrl+t",
+                "key": "ctrl+` ctrl+x",
                 "command": "workbench.action.toggleMaximizedPanel"
-        },
+        }
     ]
