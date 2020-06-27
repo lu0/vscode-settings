@@ -267,14 +267,12 @@
                 "when": "panelFocus"
         },
         {
-                "key": "shift+alt+Z",
-                "command": "-workbench.action.terminal.focusPrevious",
-                "when": "terminalFocus"
+                "key": "ctrl+[Backquote] ctrl+x",
+                "command": "workbench.action.toggleMaximizedPanel"
         },
         {
-                "key": "shift+alt+X",
-                "command": "-workbench.action.terminal.focusNext",
-                "when": "terminalFocus"
+                "key": "ctrl+r",
+                "command": "editor.action.startFindReplaceAction"
         },
         {
                 "key": "shift+alt+Z",
@@ -315,10 +313,6 @@
                 "command": "workbench.action.terminal.toggleTerminal"
         },
         {
-                "key": "ctrl+[Backquote] ctrl+t",
-                "command": "-workbench.action.toggleMaximizedPanel"
-        },
-        {
                 "key": "ctrl+[Backquote] ctrl+[Backquote]",
                 "command": "workbench.action.togglePanel"
         },
@@ -351,7 +345,7 @@
                 "when": "editorTextFocus && !editorReadonly"
         },
         {
-                "key": "ctrl+r",
+                "key": "ctrl+shift+r",
                 "command": "workbench.action.reloadWindow"
         },
         {
@@ -1894,7 +1888,32 @@
                 "command": "-workbench.action.files.save"
         },
         {
-                "key": "ctrl+` ctrl+x",
-                "command": "workbench.action.toggleMaximizedPanel"
+                "key": "ctrl+shift+r",
+                "command": "-workbench.action.quickOpenNavigatePreviousInRecentFilesPicker",
+                "when": "inQuickOpen && inRecentFilesPicker"
+        },
+        {
+                "key": "ctrl+r",
+                "command": "-workbench.action.reloadWindow",
+                "when": "isDevelopment"
+        },
+        {
+                "key": "ctrl+r",
+                "command": "-workbench.action.quickOpenNavigateNextInRecentFilesPicker",
+                "when": "inQuickOpen && inRecentFilesPicker"
+        },
+        {
+                "key": "ctrl+[Backquote] ctrl+t",
+                "command": "-workbench.action.toggleMaximizedPanel"
+        },
+        {
+                "key": "shift+alt+Z",
+                "command": "-workbench.action.terminal.focusPrevious",
+                "when": "terminalFocus"
+        },
+        {
+                "key": "shift+alt+X",
+                "command": "-workbench.action.terminal.focusNext",
+                "when": "terminalFocus"
         }
     ]
