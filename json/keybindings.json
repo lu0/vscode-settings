@@ -145,7 +145,7 @@
                 "command": "workbench.action.toggleSidebarVisibility"
         },
         { 
-                "key": "ctrl+[Backquote] ctrl+CapsLock", 
+                "key": "ctrl+[Backquote] ctrl+Escape", 
                 "command": "workbench.action.toggleActivityBarVisibility"
         },
         {
