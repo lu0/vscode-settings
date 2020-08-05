@@ -6,15 +6,15 @@
     "editor.cursorStyle": "block",
     "editor.fontFamily": "Source Code Pro Medium",
     "terminal.integrated.fontFamily": "Source Code Pro Medium",
-    "editor.fontSize": 16,
+    "editor.fontSize": 12,
     "editor.minimap.maxColumn": 150,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.minimap.enabled": false,
     "editor.suggestSelection": "first",
-    "editor.lineHeight": 26,
+    "editor.lineHeight": 20,
     "editor.letterSpacing": 0.1,
-    "debug.console.fontSize": 16,
-    "terminal.integrated.fontSize": 16,
+    "debug.console.fontSize": 12,
+    "terminal.integrated.fontSize": 12,
     "terminal.integrated.letterSpacing": 1,
     "workbench.colorTheme": "Monokai",
     "workbench.activityBar.visible": false,
@@ -39,13 +39,13 @@
     "git.decorations.enabled": true,
     "problems.decorations.enabled": false,
     "customizeUI.fontSizeMap": {
-        "13px": "15.5px",
-        "12px": "14px",
-        "tab-title": "15px", // Used for editor tab titles
-        "monospace": "20px", // Used for monospace fonts in user interface
+        "13px": "6px",
+        "12px": "10px",
+        "tab-title": "13px", 
+        "monospace": "12px"
     },
     "customizeUI.font.regular": "WeblySleek UI Normal",
-    "customizeUI.listRowHeight": 25, //22
+    "customizeUI.listRowHeight": 22, //22
     "customizeUI.activityBarHideSettings": true,
     "customizeUI.activityBar": "regular",
     "workbench.colorCustomizations": {
