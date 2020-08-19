@@ -1,4 +1,4 @@
-# vscode-settings
+# VSCode Settings
 My config files for VSCode
    
 * Preferences
