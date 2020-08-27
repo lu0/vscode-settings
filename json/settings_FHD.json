@@ -179,4 +179,7 @@
              ]
         }
     },
+    "browser-preview.chromeExecutable": "/usr/bin/vivaldi",
+    "browser-preview.format": "png",
+    "browser-preview.startUrl": "github.com/lu0",
 }
