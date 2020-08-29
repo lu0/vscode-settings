@@ -177,7 +177,7 @@
                 "command": "workbench.view.extension.test"
         },
         {
-                "key": "ctrl+[Backquote] ctrl+D",
+                "key": "ctrl+` meta+d",
                 "command": "workbench.debug.action.toggleRepl"
         },
         {
@@ -225,7 +225,7 @@
                 "command": "workbench.action.gotoLine"
         },
         {
-                "key": "ctrl+[Backquote] ctrl+B",
+                "key": "ctrl+` ctrl+'",
                 "command": "editor.action.jumpToBracket"
         },
         {
@@ -1919,5 +1919,57 @@
         {
                 "key": "ctrl+shift+r",
                 "command": "workbench.action.replaceInFiles"
+        },
+        {
+                "key": "ctrl+` ctrl+v",
+                "command": "browser-preview.openActiveFile"
+        },
+        {
+                "key": "ctrl+` ctrl+v",
+                "command": "extension.liveServer.goOnline",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "alt+l alt+o",
+                "command": "-extension.liveServer.goOnline",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+` d",
+                "command": "workbench.view.debug"
+        },
+        {
+                "key": "ctrl+` ctrl+d",
+                "command": "workbench.action.debug.start"
+        },
+        {
+                "key": "ctrl+` ctrl+shift+d",
+                "command": "workbench.action.debug.stop"
+        },
+        {
+                "key": "ctrl+` ctrl+meta+d",
+                "command": "workbench.action.debug.restart"
+        },
+        {
+                "key": "ctrl+b",
+                "command": "editor.debug.action.toggleBreakpoint",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "f9",
+                "command": "-editor.debug.action.toggleBreakpoint",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+` ctrl+b",
+                "command": "editor.debug.action.goToNextBreakpoint"
+        },
+        {
+                "key": "ctrl+shift+b",
+                "command": "workbench.action.debug.stepOver"
+        },
+        {
+                "key": "shift+contextmenu",
+                "command": "workbench.action.toggleMenuBar"
         }
-    ]
+]
