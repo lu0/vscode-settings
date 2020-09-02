@@ -428,6 +428,10 @@
                 "command": "workbench.action.showCommands"
         },
         {
+                "key": "ctrl+` ctrl+n",
+                "command": "notifications.clearAll"
+        },
+        {
                 "key": "ctrl+[Backquote] S",
                 "command": "-workbench.view.extension.objectExplorer"
         },
