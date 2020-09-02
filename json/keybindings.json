@@ -420,6 +420,14 @@
                 "when": "editorTextFocus"
         },
         {
+                "key": "ctrl+` alt+l",
+                "command": "workbench.action.editor.changeLanguageMode"
+        },
+        {
+                "key": "ctrl+` c",
+                "command": "workbench.action.showCommands"
+        },
+        {
                 "key": "ctrl+[Backquote] S",
                 "command": "-workbench.view.extension.objectExplorer"
         },
