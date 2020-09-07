@@ -6,18 +6,17 @@
     "editor.cursorStyle": "block",
     "editor.fontFamily": "Source Code Pro Medium",
     "terminal.integrated.fontFamily": "Source Code Pro Medium",
-    "editor.fontSize": 12,
+    "editor.fontSize": 16,
     "editor.minimap.maxColumn": 150,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.minimap.enabled": false,
     "editor.suggestSelection": "first",
-    "editor.lineHeight": 20,
-    "editor.letterSpacing": 0.1,
-    "debug.console.fontSize": 12,
-    "terminal.integrated.fontSize": 12,
+    "editor.lineHeight": 27,
+    "editor.letterSpacing": 0.3,
+    "terminal.integrated.fontSize": 16,
     "terminal.integrated.letterSpacing": 1,
     "workbench.colorTheme": "Monokai",
-    "workbench.activityBar.visible": false,
+    "workbench.activityBar.visible": true,
     "window.menuBarVisibility": "hidden",
     "window.enableMenuBarMnemonics": true,
     "breadcrumbs.enabled": true,
@@ -34,15 +33,15 @@
     "keyboard.dispatch": "keyCode",
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "outline.problems.badges": true,
-    "window.zoomLevel": 0,
+    "window.zoomLevel": -2,
     "scm.diffDecorations": "none",
     "git.decorations.enabled": true,
     "problems.decorations.enabled": false,
     "customizeUI.fontSizeMap": {
-        "13px": "6px",
-        "12px": "10px",
-        "tab-title": "13px", 
-        "monospace": "12px"
+        "monospace": "15.5px",
+        "11px": "14px",
+        "12px": "15px",
+        "tab-title": "20px"
     },
     "customizeUI.font.regular": "WeblySleek UI Normal",
     "customizeUI.listRowHeight": 22, //22
@@ -176,10 +175,13 @@
                         "foreground": "#000000",
                     }
                 },
-             ]
+            ]
         }
     },
     "browser-preview.chromeExecutable": "/usr/bin/vivaldi",
     "browser-preview.format": "png",
     "browser-preview.startUrl": "github.com/lu0",
+    "markdown.preview.fontSize": 14.5,
+    "debug.console.fontSize": 15,
+    "mssql.resultsFontSize": 15,
 }
