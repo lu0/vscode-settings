@@ -354,7 +354,7 @@
                 "when": "inSearchEditor"
         },
         {
-                "key": "ctrl+delete",
+                "key": "ctrl+d",
                 "command": "editor.action.deleteLines",
                 "when": "editorTextFocus && !editorReadonly"
         },
@@ -420,7 +420,7 @@
                 "when": "editorTextFocus"
         },
         {
-                "key": "ctrl+` alt+l",
+                "key": "ctrl+` ctrl+shift+l",
                 "command": "workbench.action.editor.changeLanguageMode"
         },
         {
@@ -1993,5 +1993,9 @@
                 "key": "ctrl+k v",
                 "command": "-markdown.showPreviewToSide",
                 "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+        },
+        {
+                "key": "ctrl+delete",
+                "command": "deleteWordRight"
         }
 ]
