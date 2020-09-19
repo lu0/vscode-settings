@@ -390,12 +390,12 @@
                 "command": "workbench.action.debug.restart"
         },
         {
-                "key": "ctrl+b",
+                "key": "ctrl+` ctrl+b",
                 "command": "editor.debug.action.toggleBreakpoint",
                 "when": "editorTextFocus"
         },
         {
-                "key": "ctrl+` ctrl+b",
+                "key": "ctrl+` ctrl+shift+b",
                 "command": "editor.debug.action.goToNextBreakpoint"
         },
         {
@@ -428,8 +428,49 @@
                 "command": "workbench.action.showCommands"
         },
         {
+                "key": "ctrl+delete",
+                "command": "deleteWordRight"
+        },
+        {
+                "key": "ctrl+shift+v",
+                "command": "markdown.showPreviewToSide",
+                "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+        },
+        {
                 "key": "ctrl+` ctrl+n",
-                "command": "notifications.clearAll"
+                "command": "notifications.focusToasts"
+        },
+        {
+                "key": "backspace",
+                "command": "notification.clear",
+                "when": "notificationFocus"
+        },
+        {
+                "key": "ctrl+` ctrl+shift+n",
+                "command": "notifications.showList"
+        },
+        {
+                "key": "ctrl+` ctrl+shift+n",
+                "command": "notifications.hideList"
+        },
+        {
+                "key": "ctrl+b ctrl+b",
+                "command": "bookmarks.toggle",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+b ctrl+down",
+                "command": "bookmarks.jumpToNext",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+b ctrl+up",
+                "command": "bookmarks.jumpToPrevious",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+` b",
+                "command": "bookmarksExplorer.focus"
         },
         {
                 "key": "ctrl+[Backquote] S",
@@ -1985,9 +2026,8 @@
                 "when": "inKeybindings && inKeybindingsSearch"
         },
         {
-                "key": "ctrl+shift+v",
-                "command": "markdown.showPreviewToSide",
-                "when": "!notebookEditorFocused && editorLangId == 'markdown'"
+                "key": "ctrl+` ctrl+n",
+                "command": "-notifications.clearAll"
         },
         {
                 "key": "ctrl+k v",
@@ -1995,7 +2035,23 @@
                 "when": "!notebookEditorFocused && editorLangId == 'markdown'"
         },
         {
-                "key": "ctrl+delete",
-                "command": "deleteWordRight"
+                "key": "delete",
+                "command": "-notification.clear",
+                "when": "notificationFocus"
+        },
+        {
+                "key": "ctrl+alt+k",
+                "command": "-bookmarks.toggle",
+                "when": "editorTextFocus"
+        },        
+        {
+                "key": "ctrl+alt+l",
+                "command": "-bookmarks.jumpToNext",
+                "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+alt+j",
+                "command": "-bookmarks.jumpToPrevious",
+                "when": "editorTextFocus"
         }
 ]
