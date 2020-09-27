@@ -2,6 +2,8 @@
     "terminal.integrated.experimentalRestore": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.copyOnSelection": true,
+    "editor.find.autoFindInSelection": "multiline",
+    "editor.find.cursorMoveOnType": false,
     "editor.autoClosingQuotes": "never",
     "editor.cursorStyle": "block",
     "editor.fontFamily": "Source Code Pro Medium",
