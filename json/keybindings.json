@@ -363,12 +363,12 @@
                 "when": "editorTextFocus && !editorReadonly"
         },
         {
-                "key": "shift+alt+k",
+                "key": "shift+meta+up",
                 "command": "editor.action.insertCursorAbove",
                 "when": "editorTextFocus"
         },
         {
-                "key": "shift+alt+j",
+                "key": "shift+meta+down",
                 "command": "editor.action.insertCursorBelow",
                 "when": "editorTextFocus"
         },
@@ -2049,5 +2049,31 @@
                 "key": "ctrl+alt+j",
                 "command": "-bookmarks.jumpToPrevious",
                 "when": "editorTextFocus"
+        },
+        {
+                "key": "ctrl+meta+left",
+                "command": "editor.action.moveCarretLeftAction"
+        },
+        {
+                "key": "ctrl+meta+right",
+                "command": "editor.action.moveCarretRightAction"
+        },
+        {
+                "key": "shift+meta+home",
+                "command": "editor.action.addCursorsToTop"
+        },
+        {
+                "key": "ctrl+shift+F",
+                "command": "toggleFindCaseSensitive",
+                "when": "editorFocus"
+        },
+        {
+                "key": "alt+c",
+                "command": "-toggleFindCaseSensitive",
+                "when": "editorFocus"
+        },
+        {
+                "key": "ctrl+` ctrl+shift+v",
+                "command": "editor.action.toggleColumnSelection"
         }
 ]
