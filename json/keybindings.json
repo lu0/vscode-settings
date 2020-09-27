@@ -167,7 +167,11 @@
                 "command": "workbench.view.extension.test"
         },
         {
-                "key": "ctrl+` meta+d",
+                "key": "ctrl+[Backquote] ctrl+D",
+                "command": "workbench.debug.action.toggleRepl"
+        },
+        {
+                "key": "alt+shift+E",
                 "command": "workbench.debug.action.toggleRepl"
         },
         {
@@ -378,7 +382,7 @@
                 "command": "workbench.view.debug"
         },
         {
-                "key": "ctrl+` ctrl+d",
+                "key": "ctrl+` meta+d",
                 "command": "workbench.action.debug.start"
         },
         {
@@ -1334,10 +1338,6 @@
                 "command": "-workbench.action.closeUnmodifiedEditors"
         },
         {
-                "key": "ctrl+shift+y",
-                "command": "-workbench.debug.action.toggleRepl"
-        },
-        {
                 "key": "ctrl+k ctrl+up",
                 "command": "-workbench.action.focusAboveGroup"
         },
@@ -1448,10 +1448,6 @@
         {
                 "key": "ctrl+shift+x",
                 "command": "-workbench.view.extensions"
-        },
-        {
-                "key": "ctrl+shift+d",
-                "command": "-workbench.view.debug"
         },
         {
                 "key": "ctrl+shift+g",
