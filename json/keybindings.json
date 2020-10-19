@@ -428,7 +428,7 @@
                 "command": "workbench.action.editor.changeLanguageMode"
         },
         {
-                "key": "ctrl+` c",
+                "key": "ctrl+` ctrl+q",
                 "command": "workbench.action.showCommands"
         },
         {

@@ -185,4 +185,5 @@
     "browser-preview.format": "png",
     "browser-preview.startUrl": "github.com/lu0",
     "markdown.preview.fontSize": 15,
+    "editor.columnSelection": false,
 }
