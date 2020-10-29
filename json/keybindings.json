@@ -166,10 +166,10 @@
                 "key": "ctrl+[Backquote] T",
                 "command": "workbench.view.extension.test"
         },
-        {
-                "key": "ctrl+[Backquote] ctrl+D",
-                "command": "workbench.debug.action.toggleRepl"
-        },
+        // {
+        //         "key": "ctrl+[Backquote] ctrl+D",
+        //         "command": "workbench.debug.action.toggleRepl"
+        // },
         {
                 "key": "alt+shift+E",
                 "command": "workbench.debug.action.toggleRepl"
@@ -324,11 +324,6 @@
                 "when": "textInputFocus && !editorReadonly"
         },
         {
-                "key": "ctrl+[Backquote] ctrl+m",
-                "command": "markdown-preview-enhanced.openPreview",
-                // "when": "editorLangId == 'markdown'"
-        },
-        {
                 "key": "ctrl+shift+enter",
                 "command": "editor.action.insertLineBefore",
                 "when": "editorTextFocus && !editorReadonly"
@@ -351,6 +346,11 @@
                 "key": "ctrl+l",
                 "command": "expandLineSelection",
                 "when": "textInputFocus"
+        },
+        {
+                "key": "ctrl+l",
+                "command": "workbench.debug.panel.action.clearReplAction",
+                "when": "inDebugRepl"
         },
         {
                 "key": "ctrl+delete",
@@ -407,8 +407,8 @@
                 "command": "workbench.action.debug.stepOver"
         },
         {
-                "key": "shift+contextmenu",
-                "command": "workbench.action.toggleMenuBar"
+                "key": "ctrl+` ctrl+s",
+                "command": "-workbench.action.toggleMenuBar"
         },
         {
                 "key": "ctrl+shift+r",
@@ -436,7 +436,7 @@
                 "command": "deleteWordRight"
         },
         {
-                "key": "ctrl+shift+v",
+                "key": "ctrl+[Backquote] ctrl+m",
                 "command": "markdown.showPreviewToSide",
                 "when": "!notebookEditorFocused && editorLangId == 'markdown'"
         },
@@ -2075,5 +2075,25 @@
         {
                 "key": "ctrl+` ctrl+shift+v",
                 "command": "editor.action.toggleColumnSelection"
+        },
+        {
+                "key": "ctrl+meta+down",
+                "command": "notebook.cell.moveDown",
+                "when": "notebookEditorFocused && !inputFocus"
+        },
+        {
+                "key": "alt+down",
+                "command": "-notebook.cell.moveDown",
+                "when": "notebookEditorFocused && !inputFocus"
+        },
+        {
+                "key": "ctrl+meta+up",
+                "command": "notebook.cell.moveUp",
+                "when": "notebookEditorFocused && !inputFocus"
+        },
+        {
+                "key": "alt+up",
+                "command": "-notebook.cell.moveUp",
+                "when": "notebookEditorFocused && !inputFocus"
         }
 ]
