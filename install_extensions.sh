@@ -36,6 +36,10 @@ code --install-extension mtxr.sqltools
 code --install-extension mtxr.sqltools-driver-mysql
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension redhat.vscode-yaml
+code --install-extension rogalmic.bash-debug
+code --install-extension shakram02.bash-beautify
+code --install-extension foxundermoon.shell-format
+code --install-extension Remisa.shellman
 
 #code --disable-extension tht13.html-preview-vscode
 #code --disable-extension auchenberg.vscode-browser-preview
