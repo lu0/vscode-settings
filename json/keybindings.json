@@ -179,7 +179,7 @@
                 "command": "workbench.actions.view.problems"
         },
         {
-                "key": "ctrl+[Backquote] ctrl+O",
+                "key": "shift+alt+o",
                 "command": "workbench.action.output.toggleOutput"
         },
         {
@@ -212,7 +212,7 @@
         },
         {
                 "key": "ctrl+[Backquote] ctrl+R",
-                "command": "workbench.action.openRecent"
+                "command": "code-runner.run"
         },
         {
                 "key": "ctrl+[Backquote] ctrl+L",
@@ -2095,5 +2095,9 @@
                 "key": "alt+up",
                 "command": "-notebook.cell.moveUp",
                 "when": "notebookEditorFocused && !inputFocus"
-        }
+        },
+        {
+                "key": "ctrl+shift+p",
+                "command": "workbench.action.debug.continue"
+        },
 ]
