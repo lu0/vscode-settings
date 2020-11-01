@@ -1,4 +1,12 @@
 {
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "ms-python.python",
+    },
+    "[shellscript]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },    
     "terminal.integrated.experimentalRestore": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.copyOnSelection": true,
@@ -10,22 +18,21 @@
     "terminal.integrated.fontFamily": "Source Code Pro Medium",
     "editor.fontSize": 16,
     "editor.minimap.maxColumn": 150,
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.minimap.enabled": false,
     "editor.suggestSelection": "first",
     "editor.lineHeight": 26,
-    "editor.letterSpacing": 0.1,
     "debug.console.fontSize": 16,
+    "debug.console.historySuggestions": false,
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.letterSpacing": 1,
     "workbench.colorTheme": "Monokai",
-    "workbench.activityBar.visible": false,
-    "window.menuBarVisibility": "hidden",
+    "workbench.activityBar.visible": true,
+    "window.menuBarVisibility": "toggle",
     "window.enableMenuBarMnemonics": true,
     "breadcrumbs.enabled": true,
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
-    "editor.wordWrap": "on",
+    "editor.wordWrap": "bounded",
     "vim.cursorStylePerMode.insert": "block",
     "vim.cursorStylePerMode.normal": "line",
     "vim.cursorStylePerMode.visual": "underline",
@@ -92,6 +99,19 @@
         "editorIndentGuide.background": "#ffffff00",
         "terminal.background": "#212121",
         "terminal.foreground": "#e8e8e8",
+        "terminal.ansiGreen": "#29ff7b",
+        "terminal.ansiBrightGreen": "#29ff7b",
+        "terminal.ansiRed": "#ff4b33",
+        "terminal.ansiBrightRed": "#ff4b33",
+        "terminal.ansiCyan": "#50C6FF",
+        "terminal.ansiBrightCyan": "#50C6FF",
+        "terminal.ansiBlue": "#1070ff",
+        "terminal.ansiBrightBlue": "#50C6FF",
+        "terminal.ansiBrightMagenta": "#ff59cd",
+        "terminal.ansiBlack": "#333333",
+        "terminal.ansiYellow": "#f7ff86",
+        // "terminal.ansiBrightYellow": "#ff0000",
+        // "terminal.ansiBrightBlack": "#ff0000",
         "terminalCursor.foreground": "#e8e8e8",
         "terminal.border": "#ffffff00",
         "tab.activeBackground": "#323334",
@@ -141,17 +161,17 @@
     "editor.tokenColorCustomizations": {
         "[Monokai]": {
             "comments": "#686868",
-            "functions": "#94ee7b",
-            "keywords": "#FF66C2",
+            "functions": "#29ff7b",
+            "keywords": "#ff59cd",
             "types": "#50C6FF",
             "strings": "#f7ff86",
-            "numbers": "#a381ff",
+            "numbers": "#AE81FF",
             "variables": "#efefef",
             "textMateRules": [
                 {
                     "scope": "keyword",
                     "settings": {
-                      "foreground": "#ff5353",
+                      "foreground": "#ff4b33",
                     }
                 },
                 {
@@ -186,4 +206,16 @@
     "browser-preview.startUrl": "github.com/lu0",
     "markdown.preview.fontSize": 15,
     "editor.columnSelection": false,
+    "workbench.statusBar.visible": true,
+    "files.associations": {
+        "bashrc": "shellscript"
+    },
+    "python.languageServer": "Pylance",
+    "python.dataScience.alwaysTrustNotebooks": true,
+    "editor.letterSpacing": 0.1,
+    "editor.formatOnSave": true,
+    "editor.formatOnSaveMode": "modifications",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "terminal.integrated.allowMnemonics": true,
+    "workbench.iconTheme": "material-icon-theme",
 }
