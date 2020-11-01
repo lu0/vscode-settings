@@ -7,6 +7,9 @@
     "[shellscript]": {
         "editor.defaultFormatter": "foxundermoon.shell-format"
     },    
+    "[sql]": {
+        "editor.defaultFormatter": "mtxr.sqltools"
+    },    
     "terminal.integrated.experimentalRestore": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.copyOnSelection": true,
@@ -58,6 +61,8 @@
     "customizeUI.activityBarHideSettings": true,
     "customizeUI.activityBar": "regular",
     "workbench.colorCustomizations": {
+        "sqltools.currentQueryBg": "#3E3F40",
+        "sqltools.currentQueryOutline": "#3E3F40",
         "editor.findMatchHighlightBackground": "#6c2222",
         "input.background": "#323334",
         "input.foreground": "#ffffff",
@@ -218,4 +223,16 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "terminal.integrated.allowMnemonics": true,
     "workbench.iconTheme": "material-icon-theme",
+    "sqltools.connectionExplorer.groupConnected": true,
+    "sqltools.historySize": 1000,
+    "sqltools.highlightQuery": true,
+    "sqltools.format": {
+        "reservedWordCase": "upper",
+        "linesBetweenQueries": 2,
+    },
+    "sqltools.results": {
+        "customization": {
+            "font-family": "Source Code Pro Medium"
+        }
+    }
 }

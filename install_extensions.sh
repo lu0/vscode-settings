@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Extensions for vscode
+# export list with: code --list-extensions
 
 code --install-extension alefragnani.bookmarks
 code --install-extension auchenberg.vscode-browser-preview
@@ -31,7 +32,8 @@ code --install-extension vscjava.vscode-spring-boot-dashboard
 code --install-extension Pivotal.vscode-boot-dev-pack
 code --install-extension Pivotal.vscode-spring-boot
 code --install-extension vscjava.vscode-spring-initializr
-code --install-extension ms-mssql.mssql
+code --install-extension mtxr.sqltools
+code --install-extension mtxr.sqltools-driver-mysql
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension redhat.vscode-yaml
 
