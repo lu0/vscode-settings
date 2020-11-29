@@ -29,7 +29,7 @@
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.letterSpacing": 1,
     "workbench.colorTheme": "Monokai",
-    "workbench.activityBar.visible": true,
+    "workbench.activityBar.visible": false,
     "window.menuBarVisibility": "toggle",
     "window.enableMenuBarMnemonics": true,
     "breadcrumbs.enabled": true,
@@ -131,7 +131,7 @@
         "panelTitle.activeForeground": "#ffffff",
         "panelTitle.inactiveForeground": "#7a7c80",
         "panel.border": "#ffffff00",
-        "panelTitle.activeBorder": "#fd5a56",
+        "panelTitle.activeBorder": "#FD5A56",
         "list.focusBackground": "#3E3F40",
         "list.hoverBackground": "#42454a",
         "list.hoverForeground": "#ffffff",
@@ -216,7 +216,6 @@
         "bashrc": "shellscript"
     },
     "python.languageServer": "Pylance",
-    "python.dataScience.alwaysTrustNotebooks": true,
     "editor.letterSpacing": 0.1,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "modifications",
@@ -229,10 +228,34 @@
     "sqltools.format": {
         "reservedWordCase": "upper",
         "linesBetweenQueries": 2,
+        "language": "sql",
     },
     "sqltools.results": {
         "customization": {
-            "font-family": "Source Code Pro Medium"
+            "font-family": "Source Code Pro Medium",
+            "font-size": "10"
         }
-    }
+    },
+    "jupyter.alwaysTrustNotebooks": true,
+    "workbench.editor.tabCloseButton": "off",
+    "explorer.autoReveal": "focusNoScroll",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "markdown.extension.tableFormatter.normalizeIndentation": true,
+    "workbench.editorAssociations": [{
+        "viewType": "default",
+        "filenamePattern": "*.md"
+    }],
+    "java.configuration.runtimes": [{
+            "name": "JavaSE-15",
+            "path": "/usr/lib/jvm/jdk-15.0.1+9",
+            "default": false
+        },
+        {
+            "name": "JavaSE-1.8",
+            "path": "/usr/lib/jvm/jdk1.8.0_191",
+            "default": true
+        }
+    ],
+    "java.home": "/usr/lib/jvm/jdk-15.0.1+9"
 }
