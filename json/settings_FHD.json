@@ -35,7 +35,7 @@
     "breadcrumbs.enabled": true,
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
-    "editor.wordWrap": "bounded",
+    "editor.wordWrap": "on",
     "vim.cursorStylePerMode.insert": "block",
     "vim.cursorStylePerMode.normal": "line",
     "vim.cursorStylePerMode.visual": "underline",
@@ -209,7 +209,7 @@
     "browser-preview.chromeExecutable": "/usr/bin/vivaldi",
     "browser-preview.format": "png",
     "browser-preview.startUrl": "github.com/lu0",
-    "markdown.preview.fontSize": 15,
+    "markdown.preview.fontSize": 16,
     "editor.columnSelection": false,
     "workbench.statusBar.visible": true,
     "files.associations": {
