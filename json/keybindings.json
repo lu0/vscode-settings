@@ -2277,7 +2277,7 @@
         "when": "inEditorsPicker && inQuickOpen"
     },
     {
-        "key": "ctrl+tab",
+        "key": "shift+space",
         "command": "editor.action.triggerSuggest"
     },
     {

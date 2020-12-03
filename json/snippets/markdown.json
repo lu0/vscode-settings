@@ -12,7 +12,7 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"TODAY Description": {
+	"Today": {
 		"prefix": "today",
 		"body": [
             "",
@@ -28,6 +28,43 @@
             " ${5}"
 		],
 		"description": "Insert today"
+	},
+	"Task":{
+		"prefix": "task",
+		"body": [
+			"### ${1:HH}:${2:MM}${3:XM}-${4:HH}:${5:MM}${6:XM} ${7:Task Name}"
+		],
+		"description": "Insert Task"
+	},
+	"Complete Reference-style Link": {
+		"prefix": "lnc",
+		"body": [
+			"[${1:text}][${2:number}]",
+			"",
+			"[${2}]: <${https://3:link}> '${4:alt text}'",
+            ""
+		],
+		"description": "Complete Reference-style Link"
+	},
+	"Reference-style Link": {
+		"prefix": "ln",
+		"body": [
+			"[${1:text}][${2:number}]",
+		],
+		"description": "Reference-style Link"
+	},
+	"Reference": {
+		"prefix": "ref",
+		"body": [
+			"[${1}]: <https://${2:link}> '${3:alt text}'",
+		],
+		"description": "Insert Reference"
+	},
+	"Plain Link": {
+		"prefix": "lnp",
+		"body": [
+			"[${1}](${2:link})",
+		],
+		"description": "Insert Link"
 	}
-	
 }
