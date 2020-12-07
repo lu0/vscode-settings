@@ -12,8 +12,22 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
-	"Today": {
-		"prefix": "today",
+	"tab": {
+		"prefix": "tab",
+		"body": [
+            "&emsp; ",
+		],
+		"description": "Insert an inline tab"
+	},
+	"whitespace": {
+		"prefix": "white",
+		"body": [
+            "&nbsp; ",
+		],
+		"description": "Insert an inline space"
+	},
+	"Daily Meeting": {
+		"prefix": "daily",
 		"body": [
             "",
             "## $CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR ${1:Día de la semana...}",
@@ -26,6 +40,13 @@
             "    - ${4:De momento me detiene...}",
             "",
             " ${5}"
+		],
+		"description": "Insert description for daily meeting"
+	},
+	"Today": {
+		"prefix": "today",
+		"body": [
+            "$CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR",
 		],
 		"description": "Insert today"
 	},
@@ -41,7 +62,7 @@
 		"body": [
 			"[${1:text}][${2:number}]",
 			"",
-			"[${2}]: <${https://3:link}> '${4:alt text}'",
+			"[${2}]: <https://${3:link}> '${4:alt text}'",
             ""
 		],
 		"description": "Complete Reference-style Link"
@@ -63,8 +84,25 @@
 	"Plain Link": {
 		"prefix": "lnp",
 		"body": [
-			"[${1}](${2:link})",
+			"[${1:text}](${2:link})",
 		],
 		"description": "Insert Link"
+	},
+	"Image": {
+		"prefix": "img",
+		"body": [
+			"![${1:alt text}](${2:link})",
+		],
+		"description": "Insert Image"
+	},
+	"Table": {
+		"prefix": "table",
+		"body": [
+			"| ${1}  |   |",
+			"|---|---|",
+			"|   |   |",
+			"|   |   |",
+		],
+		"description": "Insert Image"
 	}
 }
