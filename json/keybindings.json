@@ -209,10 +209,6 @@
         "command": "workbench.action.gotoLine"
     },
     {
-        "key": "ctrl+` ctrl+'",
-        "command": "editor.action.jumpToBracket"
-    },
-    {
         "key": "ctrl+[Backquote] alt+K",
         "command": "workbench.action.keybindingsReference"
     },
@@ -2289,5 +2285,15 @@
         "key": "ctrl+space",
         "command": "-editor.action.triggerSuggest",
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+` ctrl+'",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus && editorLangId != 'html'"
+    },
+    {
+        "key": "ctrl+` ctrl+'",
+        "command": "editor.emmet.action.matchTag",
+        "when": "editorTextFocus && editorLangId == 'html'"
     }
 ]
