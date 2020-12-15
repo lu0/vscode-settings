@@ -257,5 +257,10 @@
             "default": true
         }
     ],
-    "java.home": "/usr/lib/jvm/jdk-15.0.1+9"
+    "java.home": "/usr/lib/jvm/jdk-15.0.1+9",
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": true,
+    "gitlens.currentLine.format": "${id} ${date} ${authorNotYou} ${message}",
+    "gitlens.hovers.enabled": false,
 }

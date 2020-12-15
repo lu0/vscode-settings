@@ -62,5 +62,6 @@ code --install-extension ikuyadeu.r
 code --install-extension jakebathman.mysql-syntax
 code --install-extension johnpapa.angular2
 code --install-extension ms-toolsai.jupyter
+code --install-extension eamodio.gitlens
 
 notify-send "VS extensions installed!"
