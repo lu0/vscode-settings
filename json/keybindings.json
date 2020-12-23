@@ -2436,5 +2436,22 @@
         "key": "ctrl+e",
         "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
         "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+` ctrl+enter",
+        "command": "git.stageSelectedRanges"
+    },
+    {
+        "key": "ctrl+` ctrl+shift+enter",
+        "command": "git.unstageSelectedRanges"
+    },
+    {
+        "key": "ctrl+enter",
+        "command": "extension.open",
+        "when": "activityBarFocused"
+    },
+    {
+        "key": "ctrl+alt+o",
+        "command": "-extension.open"
     }
 ]

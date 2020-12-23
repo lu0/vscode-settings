@@ -33,6 +33,8 @@
     "window.menuBarVisibility": "hidden",
     "window.enableMenuBarMnemonics": false,
     "window.titleBarStyle": "native",
+    // "window.titleBarStyle": "custom",
+    "window.title": "${rootName}",
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
     "editor.wordWrap": "on",
