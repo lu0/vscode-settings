@@ -2453,5 +2453,9 @@
     {
         "key": "ctrl+alt+o",
         "command": "-extension.open"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.files.showOpenedFileInNewWindow"
     }
 ]
