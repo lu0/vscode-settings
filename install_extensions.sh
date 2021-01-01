@@ -63,5 +63,6 @@ code --install-extension jakebathman.mysql-syntax
 code --install-extension johnpapa.angular2
 code --install-extension ms-toolsai.jupyter
 code --install-extension eamodio.gitlens
+code --install-extension ethansk.restore-terminals
 
 notify-send "VS extensions installed!"

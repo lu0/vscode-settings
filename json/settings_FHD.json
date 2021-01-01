@@ -265,4 +265,42 @@
     "gitlens.statusBar.enabled": true,
     "gitlens.currentLine.format": "${id} ${date} ${authorNotYou} ${message}",
     "gitlens.hovers.enabled": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "extensions.ignoreRecommendations": true,
+    "restoreTerminals.runOnStartup": false,
+    "restoreTerminals.terminals": [
+        {
+            "splitTerminals": [
+            {
+                "name": "angular",
+                "commands": ["npm start"]
+            },
+            {
+                "name": "swagger",
+                "commands": ["cd ../admin/core/", "./run.sh"]
+            },
+            ]
+        },
+        {
+            "splitTerminals": [
+            {
+                "name": "mysql",
+                "commands": ["cd ."]
+            },
+            ]
+        },
+        {
+            "splitTerminals": [
+            {
+                "name": "gstatus",
+                "commands": ["gstatus"]
+            },
+            {
+                "name": "glogs",
+                "commands": ["git log -5 --format=fuller", "glog -5"]
+            },
+            ]
+        },
+        
+      ]
 }
