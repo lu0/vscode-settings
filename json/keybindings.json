@@ -2279,7 +2279,8 @@
     },
     {
         "key": "shift+space",
-        "command": "editor.action.triggerSuggest"
+        "command": "editor.action.triggerSuggest",
+        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+i",
