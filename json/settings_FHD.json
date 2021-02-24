@@ -133,11 +133,15 @@
         {
             "splitTerminals": [
             {
-                "name": "angular",
+                "name": "app: ssy",
                 "commands": ["npm start"]
             },
             {
-                "name": "swag-ssy",
+                "name": "app: ssy-icons",
+                "commands": ["cd ssy-icons/vanilla-pkg/", "npm start"]
+            },
+            {
+                "name": "back: ssy",
                 "commands": ["cd ../admin/core/", "./run.sh"]
             },
             ]
@@ -153,11 +157,11 @@
         {
             "splitTerminals": [
             {
-                "name": "gstatus",
+                "name": "ssy status",
                 "commands": ["gstatus"]
             },
             {
-                "name": "glogs",
+                "name": "ssy git logs",
                 "commands": ["glog -5", "git log -5 --format=fuller"]
             },
             ]
