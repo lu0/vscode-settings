@@ -99,10 +99,16 @@
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "markdown.extension.tableFormatter.normalizeIndentation": true,
-    "workbench.editorAssociations": [{
-        "viewType": "default",
-        "filenamePattern": "*.md"
-    }],
+    "workbench.editorAssociations": [
+        {
+            "viewType": "default",
+            "filenamePattern": "*.md"
+        },
+        {
+            "viewType": "default",
+            "filenamePattern": "*.svg"
+        }
+    ],
     "java.configuration.runtimes": [{
             "name": "JavaSE-15",
             "path": "/usr/lib/jvm/jdk-15.0.1+9",
