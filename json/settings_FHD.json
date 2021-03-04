@@ -133,24 +133,12 @@
         {
             "splitTerminals": [
             {
-                "name": "app: ssy",
-                "commands": ["npm start"]
-            },
-            {
-                "name": "app: ssy-icons",
-                "commands": ["cd ssy-icons/vanilla-pkg/", "npm start"]
-            },
-            {
-                "name": "back: ssy",
-                "commands": ["cd ../admin/core/", "./run.sh"]
-            },
-            ]
-        },
-        {
-            "splitTerminals": [
-            {
                 "name": "mysql",
                 "commands": ["ssydb"]
+            },
+            {
+                "name": "local sql",
+                "commands": ["mycli -u lu0 -D ssydb"]
             },
             ]
         },
@@ -163,6 +151,22 @@
             {
                 "name": "ssy git logs",
                 "commands": ["glog -5", "git log -5 --format=fuller"]
+            },
+            ]
+        },
+        {
+            "splitTerminals": [
+            {
+                "name": "app: ssy",
+                "commands": ["npm start"]
+            },
+            {
+                "name": "app: ssy-icons",
+                "commands": ["cd ssy-icons/vanilla-pkg/", "npm start"]
+            },
+            {
+                "name": "back: ssy",
+                "commands": ["cd ../admin/core/", "./run.sh"]
             },
             ]
         },
