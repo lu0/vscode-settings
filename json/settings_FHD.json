@@ -6,10 +6,11 @@
     },
     "[shellscript]": {
         "editor.defaultFormatter": "foxundermoon.shell-format"
-    },    
+    },
     "[sql]": {
         "editor.defaultFormatter": "mtxr.sqltools"
-    },    
+    },
+    "terminal.integrated.tabs.enabled": false,
     "terminal.integrated.experimentalRestore": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.copyOnSelection": true,
@@ -96,19 +97,20 @@
     "jupyter.alwaysTrustNotebooks": true,
     "workbench.editor.tabCloseButton": "off",
     "explorer.autoReveal": "focusNoScroll",
+    "explorer.decorations.badges": true,
+    "explorer.decorations.colors": true,
+    "problems.decorations.enabled": true,
+    "problems.autoReveal": true,
+    "problems.showCurrentInStatus": true,
+    "outline.problems.badges": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "markdown.extension.tableFormatter.normalizeIndentation": true,
-    "workbench.editorAssociations": [
-        {
-            "viewType": "default",
-            "filenamePattern": "*.md"
-        },
-        {
-            "viewType": "default",
-            "filenamePattern": "*.svg"
-        }
-    ],
+    "workbench.editorAssociations": {
+        "*.md": "default",
+        "*.svg": "default",
+        "*.ipynb": "jupyter-notebook"
+    },
     "java.configuration.runtimes": [{
             "name": "JavaSE-15",
             "path": "/usr/lib/jvm/jdk-15.0.1+9",
@@ -122,6 +124,7 @@
     ],
     "java.home": "/usr/lib/jvm/jdk-15.0.1+9",
     "gitlens.hovers.currentLine.over": "line",
+    "eslint.lintTask.enable": true,
     "gitlens.codeLens.enabled": false,
     "gitlens.statusBar.enabled": true,
     "gitlens.currentLine.format": "${id} ${date} ${authorNotYou} ${message}",
@@ -170,6 +173,31 @@
             },
             ]
         },
-
-      ]
+    "workbench.editor.decorations.badges": true,
+    "search.experimental.searchInOpenEditors": true,
+    "angular.enable-experimental-ivy-prompt": false,
+    "markdown-pdf.displayHeaderFooter": false,
+    "markdown-pdf.emoji": false,
+    "markdown-pdf.format": "Letter",
+    "markdown-pdf.margin.left": "1.5cm",
+    "markdown-pdf.margin.bottom": "1.5cm",
+    "markdown-pdf.margin.right": "1.5cm",
+    "markdown-pdf.margin.top": "1.5cm",
+    "markdown-pdf.footerTemplate": "<div style=\"font-size: 9px; margin: 0 auto;\"> <span class='pageNumber'></span> / <span class='totalPages'></span></",
+    "markdown-pdf.breaks": true,
+    "java.project.importOnFirstTimeStartup": "automatic",
+    "git.ignoreLegacyWarning": true,
+    "editor.autoIndent": "brackets",
+    "editor.detectIndentation": false,
+    "docker.containers.label": "ContainerName",
+    "remote.SSH.connectTimeout": 60,
+    "workbench.colorTheme": "Interplanetary Craft Dark",
+    "workbench.preferredDarkColorTheme": "Interplanetary Craft Dark",
+    "workbench.preferredLightColorTheme": "Silver Gray",
+    "gitlens.views.fileHistory.files.compact": false,
+    "workbench.activityBar.visible": false,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    }
 }

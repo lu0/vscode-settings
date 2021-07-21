@@ -26,6 +26,16 @@
 		],
 		"description": "Insert an inline space"
 	},
+	"snippet": {
+		"prefix": "snippet",
+		"body": [
+			"```${1:language}",
+			"${2}",
+            "```",
+			"${3}"
+		],
+		"description": "Insert a code block/snippet"
+	},
 	"Daily Meeting": {
 		"prefix": "daily",
 		"body": [

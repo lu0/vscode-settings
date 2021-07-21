@@ -64,5 +64,30 @@ code --install-extension johnpapa.angular2
 code --install-extension ms-toolsai.jupyter
 code --install-extension eamodio.gitlens
 code --install-extension ethansk.restore-terminals
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension telesoho.vscode-markdown-paste-image
+code --install-extension sandcastle.vscode-open
+code --install-extension yzane.markdown-pdf
+code --install-extension akamud.vscode-theme-onedark
+code --install-extension angular.ng-template
+code --install-extension blackblackcat.silver-gray
+code --install-extension danielgjackson.auto-dark-mode-windows
+code --install-extension fisheva.eva-theme
+code --install-extension fivepointseven.vscode-theme-onedark-spacegray
+code --install-extension fnando.linter
+code --install-extension github.github-vscode-theme
+code --install-extension ivanzusko.theme-jo-light
+code --install-extension ms-vscode.cmake-tools
+code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode-remote.remote-containers
+code --install-extension ms-vscode-remote.remote-ssh-edit
+code --install-extension ms-vscode.sublime-keybindings
+code --install-extension redhat.fabric8-analytics
+code --install-extension redhat.vscode-commons
+code --install-extension sohibe.java-generate-setters-getters
+code --install-extension spences10.vba
+code --install-extension twxs.cmake
+code --install-extension vscodevim.vim
+code --install-extension yzhang.markdown-all-in-one
 
 notify-send "VS extensions installed!"
