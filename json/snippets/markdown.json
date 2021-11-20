@@ -53,10 +53,17 @@
 		],
 		"description": "Insert description for daily meeting"
 	},
-	"Today": {
-		"prefix": "today",
+	"TodayES": {
+		"prefix": "todayes",
 		"body": [
             "$CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR",
+		],
+		"description": "Insert today"
+	},
+	"TodayEN": {
+		"prefix": "today",
+		"body": [
+            "$CURRENT_YEAR_SHORT-$CURRENT_MONTH-$CURRENT_DATE",
 		],
 		"description": "Insert today"
 	},
