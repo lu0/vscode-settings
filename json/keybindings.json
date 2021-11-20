@@ -92,6 +92,10 @@
         "key": "ctrl+/",
         "command": "editor.action.commentLine"
     },
+    // {
+    //     "key": "ctrl+[Backquote] ctrl+c",
+    //     "command": "editor.action.commentLine"
+    // },
     {
         "key": "ctrl+[Backquote] ctrl+shift+c",
         "command": "editor.action.blockComment"
@@ -776,6 +780,11 @@
         "command": "-editor.action.jumpToBracket",
         "when": "editorTextFocus"
     },
+    // {
+    //     "key": "ctrl+shift+\\",
+    //     "command": "-editor.action.jumpToBracket",
+    //     "when": "editorTextFocus"
+    // },
     {
         "key": "f12",
         "command": "-editor.action.revealDefinition",
@@ -2293,6 +2302,11 @@
         "command": "editor.action.triggerSuggest",
         "when": "editorTextFocus"
     },
+    // {
+    //     "key": "shift+space",
+    //     "command": "editor.action.triggerSuggest",
+    //     "when": "editorTextFocus"
+    // },
     {
         "key": "ctrl+i",
         "command": "-editor.action.triggerSuggest",
@@ -2304,10 +2318,15 @@
         "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+` ctrl+'",
+        "key": "ctrl+m",
         "command": "editor.action.jumpToBracket",
         "when": "editorTextFocus && editorLangId != 'html'"
     },
+    // {
+    //     "key": "ctrl+` ctrl+'",
+    //     "command": "editor.action.jumpToBracket",
+    //     "when": "editorTextFocus && editorLangId != 'html'"
+    // },
     {
         "key": "ctrl+` ctrl+'",
         "command": "editor.emmet.action.matchTag",
@@ -2469,9 +2488,22 @@
     {
         "key": "ctrl+shift+n",
         "command": "workbench.action.files.showOpenedFileInNewWindow"
+    },
+    {
+        "key": "ctrl+shift+m",
+        "command": "editor.action.toggleMinimap"
+    },
+    {
+        "key": "shift+alt+space",
+        "command": "workbench.action.toggleEditorWidths"
+    },
     {
         "key": "ctrl+alt+tab",
         "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "ctrl+N",
+        "command": "workbench.action.newGroupRight"
     },
     {
         "key": "ctrl+` v",

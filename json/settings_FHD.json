@@ -29,9 +29,6 @@
     "debug.console.historySuggestions": false,
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.letterSpacing": 1,
-    // "workbench.colorTheme": "Monokai",
-    "workbench.colorTheme": "Lu0: Dark Brown",  // local extension...
-    "workbench.activityBar.visible": false,
     "window.menuBarVisibility": "hidden",
     "window.enableMenuBarMnemonics": false,
     "window.titleBarStyle": "native",
@@ -44,16 +41,11 @@
     "vim.cursorStylePerMode.normal": "line",
     "vim.cursorStylePerMode.visual": "underline",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx1G -Xms100m -javaagent:\"~/.vscode/extensions/gabrielbb.vscode-lombok-1.0.1/server/lombok.jar\"",
     "workbench.editor.closeEmptyGroups": true,
     "zenMode.hideTabs": false,
     "keyboard.dispatch": "keyCode",
     "workbench.editor.enablePreviewFromQuickOpen": false,
-    "outline.problems.badges": true,
-    "window.zoomLevel": 0,
     "scm.diffDecorations": "none",
-    "git.decorations.enabled": true,
-    "problems.decorations.enabled": false,
     "customizeUI.fontSizeMap": {
         "13px": "15.5px",
         "12px": "14px",
@@ -70,9 +62,11 @@
     "markdown.preview.fontSize": 18,
     "workbench.statusBar.visible": true,
     "files.associations": {
-        "bashrc": "shellscript"
+        "bashrc": "shellscript",
+        "*.html": "html"
     },
     "python.languageServer": "Pylance",
+    "python.pythonPath": "/usr/bin/python",
     "editor.letterSpacing": 0.1,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "modifications",
@@ -135,46 +129,47 @@
         {
             "splitTerminals": [
             {
-                "name": "mysql",
-                "commands": ["ssydb"]
+                "name": "files",
+                "commands": ["ll"]
             },
             {
-                "name": "local sql",
-                "commands": ["mycli -u lu0 -D ssydb"]
-            },
-            ]
-        },
-        {
-            "splitTerminals": [
-            {
-                "name": "ssy status",
-                "commands": ["gstatus"]
-            },
-            {
-                "name": "ssy git logs",
-                "commands": ["glog -5", "git log -5 --format=fuller"]
+                "name": "git",
+                "commands": ["git log -5 --format=fuller"]
             },
             ]
         },
         {
             "splitTerminals": [
             {
-                "name": "app: ssy",
+                "name": "Python Shell",
+                "commands": ["python3"]
+            },
+            {
+                "name": "JS Shell",
+                "commands": ["js"]
+            },
+            ]
+        },
+        {
+            "splitTerminals": [
+            {
+                "name": "app angular",
                 "commands": ["npm start"]
             },
             {
-                "name": "app: ssy-icons",
-                "commands": ["cd ssy-icons/vanilla-pkg/", "npm start"]
-            },
-            {
-                "name": "back: ssy",
-                "commands": ["cd ../admin/core/", "./run.sh"]
+                "name": "app springboot",
+                "commands": ["cd ../admin/core/", "maven -r"]
             },
             ]
-        },
+        }
+    ],
     "workbench.editor.decorations.badges": true,
     "search.experimental.searchInOpenEditors": true,
     "angular.enable-experimental-ivy-prompt": false,
+    "java.autobuild.enabled": false,
+    "markdown-pdf.type": [
+        "pdf"
+    ],
     "markdown-pdf.displayHeaderFooter": false,
     "markdown-pdf.emoji": false,
     "markdown-pdf.format": "Letter",
@@ -198,5 +193,12 @@
     "notebook.cellToolbarLocation": {
         "default": "right",
         "jupyter-notebook": "left"
-    "security.workspace.trust.enabled": false
+    },
+    "security.workspace.trust.enabled": false,
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "editor.definitionLinkOpensInPeek": false,
+    "workbench.startupEditor": "none",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
 }
