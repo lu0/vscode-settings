@@ -7,7 +7,6 @@
 # gdiff-reorder install_extensions.sh <(tr '[:upper:]' '[:lower:]' < extensions-current)
 
 code --install-extension alefragnani.bookmarks
-code --install-extension auchenberg.vscode-browser-preview
 code --install-extension pivotal.vscode-manifest-yaml
 code --install-extension royaction.color-manager
 code --install-extension pivotal.vscode-concourse
