@@ -83,5 +83,12 @@ code --install-extension spences10.vba
 code --install-extension twxs.cmake
 code --install-extension vscodevim.vim
 code --install-extension yzhang.markdown-all-in-one
+code --install-extension batisteo.vscode-django
+code --install-extension donjayamanne.python-extension-pack
+code --install-extension mads-hartmann.bash-ide-vscode
+code --install-extension magicstack.MagicPython
+code --install-extension mathematic.vscode-latex
+code --install-extension wholroyd.jinja
+code --install-extension slevesque.vscode-autohotkey
 
 notify-send "VS extensions installed!"
