@@ -67,15 +67,10 @@ code --install-extension ms-vscode-remote.remote-ssh
 code --install-extension telesoho.vscode-markdown-paste-image
 code --install-extension sandcastle.vscode-open
 code --install-extension yzane.markdown-pdf
-code --install-extension akamud.vscode-theme-onedark
 code --install-extension angular.ng-template
 code --install-extension blackblackcat.silver-gray
 code --install-extension danielgjackson.auto-dark-mode-windows
-code --install-extension fisheva.eva-theme
-code --install-extension fivepointseven.vscode-theme-onedark-spacegray
 code --install-extension fnando.linter
-code --install-extension github.github-vscode-theme
-code --install-extension ivanzusko.theme-jo-light
 code --install-extension ms-vscode.cmake-tools
 code --install-extension ms-vscode.cpptools
 code --install-extension ms-vscode-remote.remote-containers
