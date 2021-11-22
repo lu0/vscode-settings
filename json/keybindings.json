@@ -137,6 +137,14 @@
         "command": "workbench.action.toggleActivityBarVisibility"
     },
     {
+        "key": "ctrl+[Backquote] Escape",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "ctrl+[Backquote] ctrl+1",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
         "key": "ctrl+=",
         "command": "workbench.action.zoomIn"
     },
@@ -267,6 +275,14 @@
         "key": "shift+alt+X",
         "command": "workbench.action.focusRightGroup",
         "when": "!panelFocus"
+    },
+    {
+        "key": "ctrl+shift+pageup",
+        "command": "workbench.action.moveEditorLeftInGroup"
+    },
+    {
+        "key": "ctrl+shift+pagedown",
+        "command": "workbench.action.moveEditorRightInGroup"
     },
     {
         "key": "shift+meta+A",
@@ -2498,7 +2514,15 @@
         "command": "workbench.action.toggleEditorWidths"
     },
     {
+        "key": "ctrl+alt+shift+w",
+        "command": "workbench.action.toggleEditorWidths"
+    },
+    {
         "key": "ctrl+alt+tab",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "ctrl+alt+;",
         "command": "workbench.action.closeOtherEditors"
     },
     {

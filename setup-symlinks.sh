@@ -1,8 +1,11 @@
 #!/bin/bash
 
-# Setup symlinks of vscode settings
-ln -srf theme-interplanetary-craft ~/.vscode/extensions/lu0.interplanetary-craft-dark-theme
-ln -srf json/keybindings.json ~/.config/Code/User/keybindings.json
-ln -srf json/settings_FHD.json ~/.config/Code/User/settings.json
-# ln -srf settings_HD.json ~/.config/Code/User/settings.json
-rm -rf ~/.config/Code/User/snippets && ln -srf json/snippets ~/.config/Code/User/snippets
+# Copy settings to the installation folder on Windows 10
+win_user_path=$(wslvar USERPROFILE) && \
+win_user=$(echo ${win_user_path##*\\}) && \
+win_config_dir=/mnt/c/Users/${win_user}/AppData/Roaming && \
+win_home_dir=/mnt/c/Users/${win_user} && \
+cp -r theme-interplanetary-craft ${win_home_dir}/.vscode/extensions/lu0.interplanetary-craft-dark-theme && \
+cp json/keybindings.json ${win_config_dir}/Code/User/keybindings.json && \
+cp json/settings_FHD.json ${win_config_dir}/Code/User/settings.json && \
+rm -rf ${win_config_dir}/Code/User/snippets && cp json/snippets ${win_config_dir}/Code/User/snippets
