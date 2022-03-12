@@ -128,40 +128,28 @@
     "restoreTerminals.terminals": [
         {
             "splitTerminals": [
-            {
-                "name": "files",
-                "commands": ["ll"]
-            },
-            {
-                "name": "git",
-                "commands": ["git log -5 --format=fuller"]
-            },
+                {
+                    "name": "files",
+                    "commands": ["ll"]
+                },
+                {
+                    "name": "git",
+                    "commands": ["git log -5 --format=fuller"]
+                }
             ]
         },
         {
             "splitTerminals": [
-            {
-                "name": "Python Shell",
-                "commands": ["python3"]
-            },
-            {
-                "name": "JS Shell",
-                "commands": ["js"]
-            },
+                {
+                    "name": "Python Shell",
+                    "commands": ["python3"]
+                },
+                {
+                    "name": "JS Shell",
+                    "commands": ["js"]
+                }
             ]
         },
-        {
-            "splitTerminals": [
-            {
-                "name": "app angular",
-                "commands": ["npm start"]
-            },
-            {
-                "name": "app springboot",
-                "commands": ["cd ../admin/core/", "maven -r"]
-            },
-            ]
-        }
     ],
     "workbench.editor.decorations.badges": true,
     "search.experimental.searchInOpenEditors": true,
