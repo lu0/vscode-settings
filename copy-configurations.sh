@@ -11,4 +11,4 @@ cp -r theme-interplanetary-craft ${win_home_dir}/.vscode/extensions/lu0.interpla
 cp json/keybindings.json ${win_config_dir}/keybindings.json
 cp json/settings.json ${win_config_dir}/settings.json
 rm -rf ${win_config_dir}/snippets && \
-    cp json/snippets ${win_config_dir}/snippets
+    cp -r json/snippets ${win_config_dir}/snippets
