@@ -18,6 +18,7 @@ code --install-extension cweijan.vscode-office
 code --install-extension danielgjackson.auto-dark-mode-windows
 code --install-extension danwahlin.angular2-snippets
 code --install-extension dbaeumer.vscode-eslint
+code --install-extension donjayamanne.python-environment-manager
 code --install-extension donjayamanne.python-extension-pack
 code --install-extension eamodio.gitlens
 code --install-extension esbenp.prettier-vscode
@@ -37,6 +38,7 @@ code --install-extension iocave.customize-ui
 code --install-extension iocave.monkey-patch
 code --install-extension jakebathman.mysql-syntax
 code --install-extension johnpapa.angular2
+code --install-extension kevinrose.vsc-python-indent
 code --install-extension lonefy.vscode-js-css-html-formatter
 code --install-extension mads-hartmann.bash-ide-vscode
 code --install-extension magicstack.MagicPython
@@ -51,14 +53,17 @@ code --install-extension ms-vscode-remote.remote-ssh
 code --install-extension ms-vscode-remote.remote-ssh-edit
 code --install-extension ms-vscode.cmake-tools
 code --install-extension ms-vscode.cpptools
+code --install-extension ms-vscode.powershell
 code --install-extension ms-vscode.sublime-keybindings
 code --install-extension mtxr.sqltools
 code --install-extension mtxr.sqltools-driver-mysql
+code --install-extension njpwerner.autodocstring
 code --install-extension pivotal.vscode-boot-dev-pack
 code --install-extension pivotal.vscode-concourse
 code --install-extension pivotal.vscode-manifest-yaml
 code --install-extension pivotal.vscode-spring-boot
 code --install-extension pkief.material-icon-theme
+code --install-extension rafaelcavasani.vscode-autohotkey-plus-slimcode
 code --install-extension redhat.fabric8-analytics
 code --install-extension redhat.java
 code --install-extension redhat.vscode-commons
@@ -75,6 +80,7 @@ code --install-extension slevesque.vscode-autohotkey
 code --install-extension sohibe.java-generate-setters-getters
 code --install-extension spences10.vba
 code --install-extension telesoho.vscode-markdown-paste-image
+code --install-extension thqby.vscode-autohotkey2-lsp
 code --install-extension tht13.html-preview-vscode
 code --install-extension twxs.cmake
 code --install-extension visualstudioexptteam.vscodeintellicode
