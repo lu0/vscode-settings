@@ -229,4 +229,10 @@
     ],
     "LWI.style.margin": 30,
     "LWI.style.fontStyle": "oblique",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
 }
