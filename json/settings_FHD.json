@@ -22,6 +22,7 @@
         "editor.defaultFormatter": "mtxr.sqltools"
     },
     "terminal.integrated.splitCwd": "inherited",
+    "terminal.integrated.useWslProfiles": true,
     "terminal.integrated.tabs.enabled": false,
     "terminal.integrated.experimentalRestore": true,
     "terminal.integrated.cursorBlinking": true,
@@ -179,7 +180,6 @@
     "editor.autoIndent": "brackets",
     "editor.detectIndentation": false,
     "docker.containers.label": "ContainerName",
-    "remote.SSH.connectTimeout": 60,
     "workbench.colorTheme": "Interplanetary Craft Dark",
     "workbench.preferredDarkColorTheme": "Interplanetary Craft Dark",
     "workbench.preferredLightColorTheme": "Silver Gray",
@@ -191,6 +191,23 @@
         "jupyter-notebook": "left"
     },
     "security.workspace.trust.enabled": false,
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "ksh": {
+            "path": "ksh",
+            "icon": "terminal-bash"
+        }
+    },
+    "remote.SSH.connectTimeout": 60,
+    "remote.SSH.path": "C:\\wsl-helpers\\vsc-ssh.bat",
+    "remote.SSH.configFile": "\\\\wsl$\\Ubuntu-20.04\\home\\lucero\\.ssh\\config",
+    "remote.SSH.remotePlatform": {
+        "aws-test-ec2": "linux",
+        "ndm-dev2": "linux"
+    },
     "terminal.integrated.defaultProfile.linux": "bash",
     "editor.definitionLinkOpensInPeek": false,
     "workbench.startupEditor": "none",
