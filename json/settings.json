@@ -226,7 +226,7 @@
     "vim.cursorStylePerMode.visual": "underline",
     "vim.cursorStylePerMode.visualblock": "underline",
     "vim.cursorStylePerMode.visualline": "underline",
-    "vim.statusBarColorControl": true,
+    "vim.statusBarColorControl": false,
     "vim.statusBarColors.searchinprogressmode": "#8C6BC8",
     "vim.mouseSelectionGoesIntoVisualMode": false,
     "LWI.breakpoints": [
