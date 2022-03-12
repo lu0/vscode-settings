@@ -213,4 +213,19 @@
     "vim.statusBarColors.visual": "#FF59CD",
     "vim.statusBarColors.searchinprogressmode": "#8C6BC8",
     "vim.mouseSelectionGoesIntoVisualMode": false,
+    "LWI.breakpoints": [
+        {
+            "color": "rgb(0, 0, 0, 0)",
+            "column": 78
+        },
+        {
+            "color": "#FF4B33",
+            "column": 79
+        }
+    ],
+    "LWI.excludedLanguages": [
+        // "markdown",
+    ],
+    "LWI.style.margin": 30,
+    "LWI.style.fontStyle": "oblique",
 }

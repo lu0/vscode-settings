@@ -39,6 +39,7 @@ code --install-extension iocave.monkey-patch
 code --install-extension jakebathman.mysql-syntax
 code --install-extension johnpapa.angular2
 code --install-extension kevinrose.vsc-python-indent
+code --install-extension lbragile.line-width-indicator
 code --install-extension lonefy.vscode-js-css-html-formatter
 code --install-extension mads-hartmann.bash-ide-vscode
 code --install-extension magicstack.MagicPython
