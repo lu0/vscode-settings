@@ -339,11 +339,6 @@
         "key": "ctrl+meta+r",
         "command": "workbench.action.reloadWindow"
     },
-    // {
-    //     "key": "ctrl+shift+l",
-    //     "command": "editor.action.selectHighlights",
-    //     "when": "editorFocus"
-    // },
     {
         "key": "ctrl+l ctrl+l",
         "command": "expandLineSelection",
@@ -512,11 +507,6 @@
         "key": "ctrl+shift+l",
         "command": "-addCursorsAtSearchResults",
         "when": "fileMatchOrMatchFocus && searchViewletVisible"
-    },
-    {
-        "key": "ctrl+shift+l",
-        "command": "-selectAllSearchEditorMatches",
-        "when": "inSearchEditor"
     },
     {
         "key": "ctrl+j",
@@ -2166,11 +2156,6 @@
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+l",
-        "command": "-editor.action.selectHighlights",
-        "when": "editorFocus"
-    },
-    {
         "key": "ctrl+h",
         "command": "editor.toggleFold"
     },
@@ -2572,5 +2557,47 @@
     {
         "key": "shift+alt+v",
         "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "ctrl+` ctrl+g",
+        "command": "git.refresh"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "-terminal.run"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-extension.vim_ctrl+d",
+        "when": "editorTextFocus && vim.active && vim.use<C-d> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "-extension.vim_ctrl+k",
+        "when": "editorTextFocus && vim.active && vim.use<C-k> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+f3",
+        "command": "-editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-selectAllSearchEditorMatches",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.selectHighlights"
     }
 ]
