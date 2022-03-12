@@ -24,7 +24,24 @@
 			"\"\"\"",
 			"${7:# Initial Code}"
 		],
-		"description": "Problem description"
+		"description": "Problem description",
+	},
+	"String literal": {
+		"prefix": "docstring",
+		"body": [
+            "\"\"\"",
+            "${1}",
+            "\"\"\"",
+            "${2}"
+		],
+		"description": "Insert a docstring",
+	},
+	"Double Underscore": {
+		"prefix": "__",
+		"body": [
+			"__${1}__${2}"
+		],
+		"description": "Insert leading and trailing underscores."
 	}
 	
 }

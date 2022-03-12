@@ -1,3 +1,6 @@
 [submodule "theme-interplanetary-craft"]
 	path = theme-interplanetary-craft
 	url = https://github.com/lu0/vscode-theme-interplanetary-craft
+[submodule "fonts/source-code-pro"]
+	path = fonts/source-code-pro
+	url = https://github.com/adobe-fonts/source-code-pro

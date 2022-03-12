@@ -1,25 +1,38 @@
 {
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
     "[python]": {
         "editor.insertSpaces": true,
         "editor.tabSize": 4,
         "editor.defaultFormatter": "ms-python.python",
     },
+    "python.linting.enabled": false,
+    "python.linting.lintOnSave": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pydocstyleEnabled": false,
+    "python.linting.pycodestyleEnabled": false,
+    "python.languageServer": "Pylance",
+    "python.pythonPath": "/usr/bin/python",
+    "python.terminal.activateEnvironment": false,
     "[shellscript]": {
         "editor.defaultFormatter": "foxundermoon.shell-format"
     },
     "[sql]": {
         "editor.defaultFormatter": "mtxr.sqltools"
     },
+    "terminal.integrated.splitCwd": "inherited",
+    "terminal.integrated.useWslProfiles": true,
     "terminal.integrated.tabs.enabled": false,
     "terminal.integrated.experimentalRestore": true,
     "terminal.integrated.cursorBlinking": true,
     "terminal.integrated.copyOnSelection": true,
     "editor.find.autoFindInSelection": "multiline",
     "editor.find.cursorMoveOnType": false,
-    "editor.autoClosingQuotes": "never",
+    "editor.autoClosingQuotes": "beforeWhitespace",
     "editor.cursorStyle": "block",
     "editor.fontFamily": "Source Code Pro Medium",
-    "terminal.integrated.fontFamily": "Source Code Pro Medium",
+    "terminal.integrated.fontWeightBold": "normal",
     "editor.fontSize": 16,
     "editor.minimap.maxColumn": 150,
     "editor.minimap.enabled": false,
@@ -31,15 +44,12 @@
     "terminal.integrated.letterSpacing": 1,
     "window.menuBarVisibility": "hidden",
     "window.enableMenuBarMnemonics": false,
-    "window.titleBarStyle": "native",
-    // "window.titleBarStyle": "custom",
+    // "window.titleBarStyle": "native",
+    "window.titleBarStyle": "custom",
     "window.title": "${rootName}",
     "editor.renderWhitespace": "none",
     "editor.renderControlCharacters": false,
     "editor.wordWrap": "on",
-    "vim.cursorStylePerMode.insert": "block",
-    "vim.cursorStylePerMode.normal": "line",
-    "vim.cursorStylePerMode.visual": "underline",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.editor.closeEmptyGroups": true,
     "zenMode.hideTabs": false,
@@ -47,13 +57,13 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "scm.diffDecorations": "none",
     "customizeUI.fontSizeMap": {
-        "13px": "15.5px",
-        "12px": "14px",
-        "tab-title": "15px", // Used for editor tab titles
-        "monospace": "20px", // Used for monospace fonts in user interface
+        "13px": "14px",
+        "12px": "13px",
+        "tab-title": "14px", // Used for editor tab titles
+        "monospace": "18px", // Used for monospace fonts in user interface
     },
     "customizeUI.font.regular": "WeblySleek UI Normal",
-    "customizeUI.listRowHeight": 25, //22
+    "customizeUI.listRowHeight": 22,
     "customizeUI.activityBarHideSettings": true,
     "customizeUI.activityBar": "regular",
     "browser-preview.chromeExecutable": "/usr/bin/vivaldi",
@@ -65,8 +75,6 @@
         "bashrc": "shellscript",
         "*.html": "html"
     },
-    "python.languageServer": "Pylance",
-    "python.pythonPath": "/usr/bin/python",
     "editor.letterSpacing": 0.1,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "modifications",
@@ -83,7 +91,7 @@
     },
     "sqltools.results": {
         "customization": {
-            "font-family": "Source Code Pro Medium",
+            "font-family": "Source Code Pro",
             "font-size": "10"
         }
     },
@@ -128,40 +136,28 @@
     "restoreTerminals.terminals": [
         {
             "splitTerminals": [
-            {
-                "name": "files",
-                "commands": ["ll"]
-            },
-            {
-                "name": "git",
-                "commands": ["git log -5 --format=fuller"]
-            },
+                {
+                    "name": "files",
+                    "commands": ["ll"]
+                },
+                {
+                    "name": "git",
+                    "commands": ["git log -5 --format=fuller"]
+                }
             ]
         },
         {
             "splitTerminals": [
-            {
-                "name": "Python Shell",
-                "commands": ["python3"]
-            },
-            {
-                "name": "JS Shell",
-                "commands": ["js"]
-            },
+                {
+                    "name": "Python Shell",
+                    "commands": ["python3"]
+                },
+                {
+                    "name": "JS Shell",
+                    "commands": ["js"]
+                }
             ]
         },
-        {
-            "splitTerminals": [
-            {
-                "name": "app angular",
-                "commands": ["npm start"]
-            },
-            {
-                "name": "app springboot",
-                "commands": ["cd ../admin/core/", "maven -r"]
-            },
-            ]
-        }
     ],
     "workbench.editor.decorations.badges": true,
     "search.experimental.searchInOpenEditors": true,
@@ -184,10 +180,10 @@
     "editor.autoIndent": "brackets",
     "editor.detectIndentation": false,
     "docker.containers.label": "ContainerName",
-    "remote.SSH.connectTimeout": 60,
     "workbench.colorTheme": "Interplanetary Craft Dark",
     "workbench.preferredDarkColorTheme": "Interplanetary Craft Dark",
     "workbench.preferredLightColorTheme": "Silver Gray",
+    "update.mode": "none",
     "gitlens.views.fileHistory.files.compact": false,
     "workbench.activityBar.visible": false,
     "notebook.cellToolbarLocation": {
@@ -195,10 +191,63 @@
         "jupyter-notebook": "left"
     },
     "security.workspace.trust.enabled": false,
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+        },
+        "ksh": {
+            "path": "ksh",
+            "icon": "terminal-bash"
+        }
+    },
+    "remote.SSH.connectTimeout": 60,
+    "remote.SSH.path": "C:\\wsl-helpers\\vsc-ssh.bat",
+    "remote.SSH.configFile": "\\\\wsl$\\Ubuntu-20.04\\home\\lucero\\.ssh\\config",
+    "remote.SSH.remotePlatform": {
+        "aws-test-ec2": "linux",
+        "ndm-dev2": "linux"
+    },
     "terminal.integrated.defaultProfile.linux": "bash",
     "editor.definitionLinkOpensInPeek": false,
     "workbench.startupEditor": "none",
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
-    }
+    },
+    "vim.ignorecase": true,
+    "vim.startofline": true,
+    "vim.showmodename": true,
+    "vim.useCtrlKeys": false,
+    "vim.smartRelativeLine": true,
+    "vim.startInInsertMode": false,
+    "vim.useSystemClipboard": true,
+    "vim.cursorStylePerMode.insert": "block",
+    "vim.cursorStylePerMode.normal": "line",
+    "vim.cursorStylePerMode.visual": "underline",
+    "vim.cursorStylePerMode.visualblock": "underline",
+    "vim.cursorStylePerMode.visualline": "underline",
+    "vim.statusBarColorControl": false,
+    "vim.statusBarColors.searchinprogressmode": "#8C6BC8",
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "LWI.breakpoints": [
+        {
+            "color": "rgb(0, 0, 0, 0)",
+            "column": 78
+        },
+        {
+            "color": "#FF4B33",
+            "column": 79
+        }
+    ],
+    "LWI.excludedLanguages": [
+        // "markdown",
+    ],
+    "LWI.style.margin": 30,
+    "LWI.style.fontStyle": "oblique",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
 }

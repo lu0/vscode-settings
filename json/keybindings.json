@@ -137,6 +137,14 @@
         "command": "workbench.action.toggleActivityBarVisibility"
     },
     {
+        "key": "ctrl+[Backquote] Escape",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+        "key": "ctrl+[Backquote] ctrl+1",
+        "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
         "key": "ctrl+=",
         "command": "workbench.action.zoomIn"
     },
@@ -269,6 +277,14 @@
         "when": "!panelFocus"
     },
     {
+        "key": "ctrl+shift+pageup",
+        "command": "workbench.action.moveEditorLeftInGroup"
+    },
+    {
+        "key": "ctrl+shift+pagedown",
+        "command": "workbench.action.moveEditorRightInGroup"
+    },
+    {
         "key": "shift+meta+A",
         "command": "workbench.action.moveEditorLeftInGroup"
     },
@@ -323,11 +339,6 @@
         "key": "ctrl+meta+r",
         "command": "workbench.action.reloadWindow"
     },
-    // {
-    //     "key": "ctrl+shift+l",
-    //     "command": "editor.action.selectHighlights",
-    //     "when": "editorFocus"
-    // },
     {
         "key": "ctrl+l ctrl+l",
         "command": "expandLineSelection",
@@ -496,11 +507,6 @@
         "key": "ctrl+shift+l",
         "command": "-addCursorsAtSearchResults",
         "when": "fileMatchOrMatchFocus && searchViewletVisible"
-    },
-    {
-        "key": "ctrl+shift+l",
-        "command": "-selectAllSearchEditorMatches",
-        "when": "inSearchEditor"
     },
     {
         "key": "ctrl+j",
@@ -2150,11 +2156,6 @@
         "when": "textInputFocus"
     },
     {
-        "key": "ctrl+shift+l",
-        "command": "-editor.action.selectHighlights",
-        "when": "editorFocus"
-    },
-    {
         "key": "ctrl+h",
         "command": "editor.toggleFold"
     },
@@ -2498,7 +2499,15 @@
         "command": "workbench.action.toggleEditorWidths"
     },
     {
+        "key": "ctrl+alt+shift+w",
+        "command": "workbench.action.toggleEditorWidths"
+    },
+    {
         "key": "ctrl+alt+tab",
+        "command": "workbench.action.closeOtherEditors"
+    },
+    {
+        "key": "ctrl+alt+;",
         "command": "workbench.action.closeOtherEditors"
     },
     {
@@ -2548,5 +2557,47 @@
     {
         "key": "shift+alt+v",
         "command": "workbench.action.splitEditorDown"
+    },
+    {
+        "key": "ctrl+` ctrl+g",
+        "command": "git.refresh"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "-terminal.run"
+    },
+    {
+        "key": "ctrl+d",
+        "command": "-extension.vim_ctrl+d",
+        "when": "editorTextFocus && vim.active && vim.use<C-d> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "-extension.vim_ctrl+k",
+        "when": "editorTextFocus && vim.active && vim.use<C-k> && !inDebugRepl"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-editor.action.insertCursorAtEndOfEachLineSelected",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
+        "key": "alt+f3",
+        "command": "-editor.action.selectHighlights",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "-selectAllSearchEditorMatches",
+        "when": "inSearchEditor"
+    },
+    {
+        "key": "ctrl+shift+l",
+        "command": "editor.action.selectHighlights"
     }
 ]
