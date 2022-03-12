@@ -182,6 +182,7 @@
     "workbench.colorTheme": "Interplanetary Craft Dark",
     "workbench.preferredDarkColorTheme": "Interplanetary Craft Dark",
     "workbench.preferredLightColorTheme": "Silver Gray",
+    "update.mode": "none",
     "gitlens.views.fileHistory.files.compact": false,
     "workbench.activityBar.visible": false,
     "notebook.cellToolbarLocation": {
