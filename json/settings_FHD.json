@@ -4,6 +4,14 @@
         "editor.tabSize": 4,
         "editor.defaultFormatter": "ms-python.python",
     },
+    "python.linting.enabled": false,
+    "python.linting.lintOnSave": false,
+    "python.linting.pylintEnabled": false,
+    "python.linting.pydocstyleEnabled": false,
+    "python.linting.pycodestyleEnabled": false,
+    "python.languageServer": "Pylance",
+    "python.pythonPath": "/usr/bin/python",
+    "python.terminal.activateEnvironment": false,
     "[shellscript]": {
         "editor.defaultFormatter": "foxundermoon.shell-format"
     },
@@ -65,8 +73,6 @@
         "bashrc": "shellscript",
         "*.html": "html"
     },
-    "python.languageServer": "Pylance",
-    "python.pythonPath": "/usr/bin/python",
     "editor.letterSpacing": 0.1,
     "editor.formatOnSave": true,
     "editor.formatOnSaveMode": "modifications",
