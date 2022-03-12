@@ -55,13 +55,13 @@
     "workbench.editor.enablePreviewFromQuickOpen": false,
     "scm.diffDecorations": "none",
     "customizeUI.fontSizeMap": {
-        "13px": "15.5px",
-        "12px": "14px",
-        "tab-title": "15px", // Used for editor tab titles
-        "monospace": "20px", // Used for monospace fonts in user interface
+        "13px": "14px",
+        "12px": "13px",
+        "tab-title": "14px", // Used for editor tab titles
+        "monospace": "18px", // Used for monospace fonts in user interface
     },
     "customizeUI.font.regular": "WeblySleek UI Normal",
-    "customizeUI.listRowHeight": 25, //22
+    "customizeUI.listRowHeight": 22,
     "customizeUI.activityBarHideSettings": true,
     "customizeUI.activityBar": "regular",
     "browser-preview.chromeExecutable": "/usr/bin/vivaldi",
