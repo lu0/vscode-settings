@@ -30,7 +30,7 @@
     "editor.autoClosingQuotes": "never",
     "editor.cursorStyle": "block",
     "editor.fontFamily": "Source Code Pro Medium",
-    "terminal.integrated.fontFamily": "Source Code Pro Medium",
+    "terminal.integrated.fontWeightBold": "normal",
     "editor.fontSize": 16,
     "editor.minimap.maxColumn": 150,
     "editor.minimap.enabled": false,
@@ -89,7 +89,7 @@
     },
     "sqltools.results": {
         "customization": {
-            "font-family": "Source Code Pro Medium",
+            "font-family": "Source Code Pro",
             "font-size": "10"
         }
     },
