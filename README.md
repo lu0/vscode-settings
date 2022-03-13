@@ -1,5 +1,10 @@
-# VSCode Settings (Windows 10 using WSL)
-My config files for VSCode
+# VSCode Settings
+My config files to setup VSCode in Linux and Windows 10 (using WSL).
+
+- Branches
+    - [master](https://github.com/lu0/vscode-settings) (Linux).
+    - [windows_10](https://github.com/lu0/vscode-settings/tree/windows_10) (Windows 10 with WSL).
+    - ~~1366x768~~ (unmaintained)
    
 - Preferences
     - Word wrap 
@@ -9,7 +14,7 @@ My config files for VSCode
     - Font family & size for my 14" FHD display
     - No mini map
     - SSH configuration read from WSL `~/.ssh/config` file
-    - Blabla...
+    - Blablabla, I forgot other stuff I did.
 
 - Keybindings (ref: `ctrl`+`ñ` `ctrl`+`k`)
     - Latinamerican layout (`ctrl`+`ñ` as modifier)
@@ -19,10 +24,10 @@ My config files for VSCode
     - Toggle side bars
     - Find text in workspace
     - Quick open files in workspace
-    - Blabla...
+    - Blabla... may change in the future, want to use Vim keybindings only.
 
 - Extensions
-    - Python, Javascript, Vim, blablabla...
+    - Python, Javascript, Vim, Java, Themes, etc...
 
 ## Setup
 

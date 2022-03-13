@@ -239,22 +239,22 @@
         "when": "terminalFocus"
     },
     {
-        "key": "shift+alt+S",
+        "key": "shift+alt+x",
         "command": "workbench.action.terminal.focusNextPane",
         "when": "panelFocus"
     },
     {
-        "key": "shift+alt+A",
+        "key": "shift+alt+z",
         "command": "workbench.action.terminal.focusPreviousPane",
         "when": "panelFocus"
     },
     {
-        "key": "shift+alt+Z",
+        "key": "shift+alt+a",
         "command": "workbench.action.previousPanelView",
         "when": "panelFocus"
     },
     {
-        "key": "shift+alt+X",
+        "key": "shift+alt+s",
         "command": "workbench.action.nextPanelView",
         "when": "panelFocus"
     },
