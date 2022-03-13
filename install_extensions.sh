@@ -70,6 +70,7 @@ code --install-extension redhat.java
 code --install-extension redhat.vscode-commons
 code --install-extension redhat.vscode-yaml
 code --install-extension remisa.shellman
+code --install-extension richie5um2.vscode-sort-json
 code --install-extension ritwickdey.liveserver
 code --install-extension rogalmic.bash-debug
 code --install-extension royaction.color-manager
