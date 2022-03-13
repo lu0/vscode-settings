@@ -141,9 +141,7 @@
     "python.linting.pylintEnabled": false,
     "python.pythonPath": "/usr/bin/python",
     "python.terminal.activateEnvironment": false,
-    "remote.SSH.configFile": "\\\\wsl$\\Ubuntu-20.04\\home\\lucero\\.ssh\\config",
     "remote.SSH.connectTimeout": 60,
-    "remote.SSH.path": "C:\\wsl-helpers\\vsc-ssh.bat",
     "remote.SSH.remotePlatform": {
         "aws-test-ec2": "linux",
         "ndm-dev2": "linux"
@@ -220,7 +218,6 @@
     },
     "terminal.integrated.splitCwd": "inherited",
     "terminal.integrated.tabs.enabled": false,
-    "terminal.integrated.useWslProfiles": true,
     "update.mode": "none",
     "vim.cursorStylePerMode.insert": "block",
     "vim.cursorStylePerMode.normal": "line",
