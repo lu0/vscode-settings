@@ -77,7 +77,8 @@
     "gitlens.defaultDateFormat": "ddd, D MMM YYYY HH:mm:ss ZZ",
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.hovers.enabled": false,
-    "gitlens.statusBar.enabled": false,
+    "gitlens.statusBar.command": "gitlens.revealCommitInView",
+    "gitlens.statusBar.enabled": true,
     "gitlens.views.fileHistory.files.compact": false,
     "java.autobuild.enabled": false,
     "java.configuration.runtimes": [
