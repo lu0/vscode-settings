@@ -35,6 +35,7 @@ Clone this repository
 ```zsh
 git clone --recurse-submodules https://github.com/lu0/vscode-settings
 cd vscode-settings
+git checkout windows_10
 ```
 
 Copy configuration files to VSCode installation directory in Windows 10.
