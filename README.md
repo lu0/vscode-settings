@@ -57,4 +57,4 @@ Point to `~/.ssh/config` to look for SSH servers and keys in WSL.
 ## Disclaimer
 Run on a new VSCode installation as this will override your current settings and keybindings. 
 
-Tested from VSCode `1.44.1` up to `1.63.2` :)
+Tested from VSCode `1.44.1` up to `1.71.2` :)
