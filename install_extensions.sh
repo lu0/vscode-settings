@@ -6,6 +6,7 @@
 # gdiff-reorder install_extensions.sh extensions-current
 # gdiff-reorder install_extensions.sh <(tr '[:upper:]' '[:lower:]' < extensions-current)
 
+code --install-extension theme-interplanetary-craft/output/interplanetary-craft-dark-theme-1.0.0.vsix
 code --install-extension adpyke.vscode-sql-formatter
 code --install-extension akamud.vscode-javascript-snippet-pack
 code --install-extension alefragnani.bookmarks
